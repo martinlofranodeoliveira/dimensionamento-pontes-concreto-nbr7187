@@ -3,8 +3,12 @@
 ABNT NBR 7187:2021, ABNT NBR 7188:2013 e ABNT NBR 6118:2023.
 """
 
+import os
+import sys
 import unittest
 from fractions import Fraction
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 from dimensionamento_pontes_concreto_nbr7187.models import (
     ClasseTremTipo,

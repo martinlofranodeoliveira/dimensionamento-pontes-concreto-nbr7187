@@ -3,8 +3,12 @@
 Verifica rejeição de float, ausência de BOM, verificação de profundidade máxima e unicidade de chaves.
 """
 
+import os
+import sys
 import unittest
 from fractions import Fraction
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 from dimensionamento_pontes_concreto_nbr7187.codecs import (
     JSONDecodeStrictError,
