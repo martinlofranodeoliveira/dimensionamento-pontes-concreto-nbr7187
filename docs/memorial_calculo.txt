@@ -1,0 +1,89 @@
+==================================================================================
+          LOFRANO TECNOLOGIA - ENGENHARIA DE ESTRUTURAS E OBRAS DE ARTE
+         MEMORIAL DE CÁLCULO ESTRUTURAL DE PONTE RODOVIÁRIA DE CONCRETO
+         Normas: ABNT NBR 7187:2021, ABNT NBR 7188:2013 e ABNT NBR 6118:2023
+==================================================================================
+
+1. CARACTERÍSTICAS GERAIS E GEOMETRIA DO VÃO
+  - Comprimento do Vão Livre de Cálculo (L): 25.00 m
+  - Largura Útil da Pista de Rolamento:     7.20 m
+  - Largura Total dos Passeios:              2.00 m
+  - Número de Faixas de Tráfego:             2
+  - Número de Vigas Principais:              2
+  - Espessura do Pavimento Asfáltico:        7.0 cm
+  - Carga Total de Barreiras New Jersey:     12.00 kN/m
+
+2. SEÇÃO TRANSVERSAL E PROPRIEDADES DOS MATERIAIS
+  - Altura Total da Viga (h):                1.80 m
+  - Largura da Alma da Viga (bw):            0.45 m
+  - Largura Colaborante da Mesa (bf):        2.20 m
+  - Espessura da Mesa Superior (hf):         0.20 m
+  - Altura Útil da Armadura de Tração (d):   1.65 m
+  - Cobrimento Nominal da Armadura (c_nom):  4.0 cm
+  - Concreto Estrutural:                     C35 (fck = 35 MPa)
+  - Aço para Armaduras:                      CA_50 (fyk = 500 MPa)
+
+3. COEFICIENTES DE MAJORAÇÃO DINÂMICA (ABNT NBR 7187)
+  - Coeficiente de Impacto Vertical (CIV):   1.2827
+  - Coeficiente de Número de Faixas (CNF):   1.0000
+  - Coeficiente de Impacto Adicional (CIA):  1.1500
+  - Majoração Dinâmica Total (CMD):          1.4751
+
+4. AÇÕES PERMANENTES POR VIGA PRINCIPAL (kN/m)
+  - Peso Próprio da Alma:                    18.00 kN/m
+  - Peso Próprio da Mesa / Laje:             23.00 kN/m
+  - Revestimento Pavimentação Asfáltica:     6.05 kN/m
+  - Barreiras e Equipamentos:                6.00 kN/m
+  - Carga Permanente Total por Viga (g):     53.05 kN/m
+
+5. CARGA MÓVEL E LINHAS DE INFLUÊNCIA (TREM-TIPO TB-450)
+  - Peso Total do Veículo de Projeto:        450.0 kN (3 eixos de 150.0 kN)
+  - Carga Distribuída de Multidão (q):       5.00 kN/m²
+  - Carga em Passeios de Pedestres:          3.00 kN/m²
+
+6. ESFORÇOS SOLICITANTES NO MEIO DO VÃO E APOIOS
+  - Momento Fletor Permanente (Mg,k):        4144.38 kNm
+  - Momento Fletor do Veículo (M_veic,k):    1681.88 kNm
+  - Momento Fletor da Multidão (Mq,k):       1640.62 kNm
+  - Momento Fletor Móvel Total (M_movel,k):  4900.91 kNm
+  - MOMENTO FLETOR DE CÁLCULO (Md,total):    12211.13 kNm
+
+  - Esforço Cortante Permanente (Vg,k):      663.10 kN
+  - Esforço Cortante do Veículo (V_veic,k):  274.95 kN
+  - Esforço Cortante da Multidão (Vq,k):     262.50 kN
+  - Esforço Cortante Móvel Total (V_movel,k):792.77 kN
+  - ESFORÇO CORTANTE DE CÁLCULO (Vd,total):  1965.43 kN
+
+7. DIMENSIONAMENTO NO ESTADO LIMITE ÚLTIMO (ELU)
+  - Posição da Linha Neutra (x):             0.2084 m
+  - Razão x/d:                               0.1263 (Limite: 0.45)
+  - Ductilidade da Seção:                    CONFORME (Domínio 2/3)
+  - Área de Armadura Longitudinal (As):      179.27 cm²
+  - Taxa Geométrica de Armadura (rho_s):     2.414 %
+  - Cortante Resistente da Biela (VRd2):     4310.21 kN
+  - Verificação de Esmagamento da Biela:     CONFORME (Vd <= VRd2)
+  - Parcela Resistida pelo Concreto (Vc):    700.07 kN
+  - Armadura Transversal Estribos (Asw/s):   19.60 cm²/m
+  - Armadura Transversal Mínima:             6.30 cm²/m
+
+8. VERIFICAÇÃO DE FADIGA DA ARMADURA (NBR 7187 item 11)
+  - Variação de Tensão Cíclica (Delta_sigma):56.72 MPa
+  - Limite Resistente à Fadiga:              180.00 MPa
+  - Avaliação de Fadiga:                     CONFORME (Delta_sigma <= Limite)
+
+9. VERIFICAÇÃO DO ESTADO LIMITE DE DEFORMAÇÃO (ELS-DEF)
+  - Flecha Imediata (Carga Móvel):           17.27 mm
+  - Flecha Total Diferida no Tempo:          17.27 mm
+  - Flecha Admissível (L/1000):              25.00 mm
+  - Avaliação de Flecha:                     CONFORME (delta_tot <= L/1000)
+
+10. DIMENSIONAMENTO DO APARELHO DE APOIO DE NEOPRENE FRETADO
+  - Dimensões do Neoprene (a x b x e):       35 cm x 45 cm x 6 cm
+  - Reação Máxima de Serviço (R_max,k):      1455.87 kN
+  - Tensão Média de Contato:                 9.24 MPa
+  - Tensão Média Admissível:                 10.00 MPa
+  - Avaliação do Aparelho de Apoio:          CONFORME
+
+==================================================================================
+STATUS GLOBAL DA ESTRUTURA: APROVADO EM TODOS OS CRITÉRIOS
+==================================================================================

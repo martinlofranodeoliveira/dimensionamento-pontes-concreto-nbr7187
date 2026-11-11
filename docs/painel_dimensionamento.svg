@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" style="background:#0b1120; font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;">
+  <defs>
+    <linearGradient id="cabecalho-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="painel-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="viga-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="tabuleiro-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="sombra-suave" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Cabeçalho Principal -->
+  <rect x="24" y="20" width="1392" height="84" rx="12" fill="url(#cabecalho-grad)" stroke="#334155" stroke-width="1.5" filter="url(#sombra-suave)"/>
+  <text x="50" y="52" font-size="22" font-weight="700" fill="#f8fafc">LOFRANO TECNOLOGIA · DIMENSIONAMENTO DE PONTES RODOVIÁRIAS</text>
+  <text x="50" y="80" font-size="14" fill="#94a3b8">Conformidade estrita: ABNT NBR 7187:2021 · ABNT NBR 7188:2013 (TB-450) · ABNT NBR 6118:2023 · Aritmética 100% Racional</text>
+
+  <!-- Selo de Status Global -->
+  <rect x="1190" y="38" width="206" height="48" rx="8" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="2"/>
+  <circle cx="1212" cy="62" r="8" fill="#10b981"/>
+  <text x="1230" y="68" font-size="15" font-weight="700" fill="#10b981">APROVADO (NBR 7187)</text>
+
+  <!-- CARD 1: ELEVAÇÃO LONGITUDINAL E TREM-TIPO TB-450 (x: 24, y: 120, w: 900, h: 360) -->
+  <rect x="24" y="120" width="900" height="360" rx="12" fill="url(#painel-card)" stroke="#334155" stroke-width="1.5" filter="url(#sombra-suave)"/>
+  <text x="50" y="152" font-size="16" font-weight="700" fill="#38bdf8">1. MODELO ESTRUTURAL LONGITUDINAL E TREM-TIPO TB-450</text>
+  <text x="50" y="174" font-size="12" fill="#94a3b8">Vão Livre L = 25.00 m | 3 Eixos de 150 kN espaçados a 1,50 m | Multidão q = 5,0 kN/m² | CIV=1.283 CNF=1.00</text>
+
+  <!-- Linha de Terra / Terreno -->
+  <line x1="80" y1="410" x2="860" y2="410" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Aparelhos de Apoio de Neoprene (Pilares / Encontros) -->
+  <!-- Apoio Esquerdo (x=120) -->
+  <polygon points="120,380 90,410 150,410" fill="#475569" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="105" y="370" width="30" height="10" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="95" y="426" font-size="11" fill="#94a3b8" font-weight="600">Apoio A (x=0)</text>
+
+  <!-- Apoio Direito (x=820) -->
+  <polygon points="820,380 790,410 850,410" fill="#475569" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="805" cy="412" r="3" fill="#94a3b8"/>
+  <circle cx="835" cy="412" r="3" fill="#94a3b8"/>
+  <rect x="805" y="370" width="30" height="10" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="795" y="426" font-size="11" fill="#94a3b8" font-weight="600">Apoio B (x=25.0m)</text>
+
+  <!-- Viga de Concreto Longa (x: 100 a 840, y: 310 a 370) -->
+  <rect x="100" y="310" width="740" height="60" rx="4" fill="url(#viga-grad)" stroke="#0284c7" stroke-width="2"/>
+  <rect x="90" y="295" width="760" height="15" rx="3" fill="url(#tabuleiro-grad)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Veículo TB-450 posicionado no meio do vão (x_centro = 470) -->
+  <!-- Eixo 1 (x=410), Eixo 2 (x=470), Eixo 3 (x=530) -->
+  <rect x="380" y="240" width="180" height="50" rx="6" fill="#3b82f6" fill-opacity="0.3" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="470" y="260" font-size="11" font-weight="700" fill="#93c5fd" text-anchor="middle">VEÍCULO TB-450 (450 kN)</text>
+  <text x="470" y="278" font-size="10" fill="#bfdbfe" text-anchor="middle">3 x 150 kN (Eixos a 1,50 m)</text>
+
+  <!-- Setas dos 3 eixos de 150 kN -->
+  <!-- Eixo 1 -->
+  <line x1="410" y1="210" x2="410" y2="290" stroke="#ef4444" stroke-width="2.5"/>
+  <polygon points="410,295 405,285 415,285" fill="#ef4444"/>
+  <text x="410" y="204" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">150 kN</text>
+
+  <!-- Eixo 2 (Central) -->
+  <line x1="470" y1="210" x2="470" y2="290" stroke="#ef4444" stroke-width="2.5"/>
+  <polygon points="470,295 465,285 475,285" fill="#ef4444"/>
+  <text x="470" y="204" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">150 kN</text>
+
+  <!-- Eixo 3 -->
+  <line x1="530" y1="210" x2="530" y2="290" stroke="#ef4444" stroke-width="2.5"/>
+  <polygon points="530,295 525,285 535,285" fill="#ef4444"/>
+  <text x="530" y="204" font-size="11" font-weight="700" fill="#f87171" text-anchor="middle">150 kN</text>
+
+  <!-- Carga de Multidão Distribuída (q = 5 kN/m²) -->
+  <path d="M 120,290 L 370,290 M 570,290 L 820,290" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="245" y="280" font-size="11" fill="#fde047" text-anchor="middle">Multidão q = 5 kN/m²</text>
+  <text x="695" y="280" font-size="11" fill="#fde047" text-anchor="middle">Multidão q = 5 kN/m²</text>
+
+  <!-- Cota do Vão Livre -->
+  <line x1="120" y1="445" x2="820" y2="445" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="120" y1="440" x2="120" y2="450" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="820" y1="440" x2="820" y2="450" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470" y="462" font-size="13" font-weight="700" fill="#e2e8f0" text-anchor="middle">Vão Livre Teórico L = 25.00 metros</text>
+
+  <!-- CARD 2: SEÇÃO TRANSVERSAL DO TABULEIRO (x: 948, y: 120, w: 468, h: 360) -->
+  <rect x="948" y="120" width="468" height="360" rx="12" fill="url(#painel-card)" stroke="#334155" stroke-width="1.5" filter="url(#sombra-suave)"/>
+  <text x="974" y="152" font-size="16" font-weight="700" fill="#38bdf8">2. SEÇÃO TRANSVERSAL DO TABULEIRO</text>
+  <text x="974" y="174" font-size="12" fill="#94a3b8">Largura Pista: 7.20m | h = 1.80m | bw = 0.45m | bf = 2.20m</text>
+
+  <!-- Desenho esquemático da seção T com tabuleiro e barreiras -->
+  <!-- Laje de Mesa (x: 980 a 1380, y: 220 a 245) -->
+  <rect x="980" y="220" width="404" height="25" rx="2" fill="url(#tabuleiro-grad)" stroke="#475569" stroke-width="1.5"/>
+  <!-- Revestimento Asfáltico (x: 1020 a 1344, y: 212 a 220) -->
+  <rect x="1020" y="212" width="324" height="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <!-- Barreiras New Jersey Laterais -->
+  <polygon points="985,220 995,190 1010,190 1015,220" fill="#94a3b8" stroke="#cbd5e1" stroke-width="1.5"/>
+  <polygon points="1350,220 1355,190 1370,190 1380,220" fill="#94a3b8" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Almas das duas Vigas Principais -->
+  <!-- Viga Esquerda -->
+  <rect x="1050" y="245" width="45" height="140" fill="url(#viga-grad)" stroke="#0284c7" stroke-width="1.5"/>
+  <!-- Viga Direita -->
+  <rect x="1270" y="245" width="45" height="140" fill="url(#viga-grad)" stroke="#0284c7" stroke-width="1.5"/>
+
+  <!-- Aparelhos de Apoio Neoprene sob as vigas -->
+  <rect x="1045" y="385" width="55" height="12" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <rect x="1265" y="385" width="55" height="12" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+
+  <!-- Armadura Longitudinal Ilustrativa nos fundos das vigas -->
+  <circle cx="1062" cy="370" r="4" fill="#ef4444"/>
+  <circle cx="1073" cy="370" r="4" fill="#ef4444"/>
+  <circle cx="1083" cy="370" r="4" fill="#ef4444"/>
+  <circle cx="1282" cy="370" r="4" fill="#ef4444"/>
+  <circle cx="1293" cy="370" r="4" fill="#ef4444"/>
+  <circle cx="1303" cy="370" r="4" fill="#ef4444"/>
+
+  <!-- Cotas e anotações da seção transversal -->
+  <text x="1182" y="206" font-size="11" fill="#cbd5e1" text-anchor="middle">Pista de Rolamento (7.2m)</text>
+  <text x="1000" y="184" font-size="10" fill="#94a3b8" text-anchor="middle">New Jersey</text>
+  <text x="1365" y="184" font-size="10" fill="#94a3b8" text-anchor="middle">New Jersey</text>
+  <text x="1072" y="415" font-size="10" fill="#f59e0b" text-anchor="middle">Neoprene</text>
+  <text x="1292" y="415" font-size="10" fill="#f59e0b" text-anchor="middle">Neoprene</text>
+
+  <rect x="974" y="435" width="416" height="32" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="1182" y="456" font-size="12" fill="#38bdf8" text-anchor="middle" font-weight="600">Armadura Long. As = 179.3 cm² | Estribos Asw/s = 19.6 cm²/m</text>
+
+  <!-- CARD 3: DIAGRAMAS DE ESFORÇOS SOLICITANTES M(x) e V(x) (x: 24, y: 504, w: 680, h: 366) -->
+  <rect x="24" y="504" width="680" height="366" rx="12" fill="url(#painel-card)" stroke="#334155" stroke-width="1.5" filter="url(#sombra-suave)"/>
+  <text x="50" y="534" font-size="16" font-weight="700" fill="#38bdf8">3. ENVOLTÓRIAS DE ESFORÇOS SOLICITANTES (ELU)</text>
+  <text x="50" y="554" font-size="12" fill="#94a3b8">Momento Fletor Máximo Md = 12211.1 kNm | Cortante Máximo Vd = 1965.4 kN</text>
+
+  <!-- Diagrama de Momentos Fletores (Parábola com valor central máximo) -->
+  <text x="50" y="585" font-size="13" font-weight="700" fill="#f43f5e">Momento Fletor Md(x) [kNm]</text>
+  <line x1="70" y1="605" x2="650" y2="605" stroke="#64748b" stroke-width="1.5"/>
+  <!-- Curva parabólica invertida (tracionando embaixo) -->
+  <path d="M 70,605 Q 360,695 650,605" fill="#f43f5e" fill-opacity="0.15" stroke="#f43f5e" stroke-width="2.5"/>
+  <line x1="360" y1="605" x2="360" y2="695" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <circle cx="360" cy="695" r="4" fill="#f43f5e"/>
+  <text x="360" y="718" font-size="13" font-weight="700" fill="#fda4af" text-anchor="middle">Md,max = 12211.1 kNm (Meio do Vão)</text>
+
+  <!-- Diagrama de Esforços Cortantes Vd(x) -->
+  <text x="50" y="748" font-size="13" font-weight="700" fill="#10b981">Esforço Cortante Vd(x) [kN]</text>
+  <line x1="70" y1="800" x2="650" y2="800" stroke="#64748b" stroke-width="1.5"/>
+  <polygon points="70,760 360,800 650,840 650,800 70,800" fill="#10b981" fill-opacity="0.15"/>
+  <line x1="70" y1="760" x2="650" y2="840" stroke="#10b981" stroke-width="2.5"/>
+  <text x="95" y="752" font-size="12" font-weight="700" fill="#6ee7b7">+Vd = 1965.4 kN</text>
+  <text x="625" y="855" font-size="12" font-weight="700" fill="#6ee7b7">-Vd = -1965.4 kN</text>
+
+  <!-- CARD 4: TABELA DE VERIFICAÇÃO NORMATIVA (x: 728, y: 504, w: 688, h: 366) -->
+  <rect x="728" y="504" width="688" height="366" rx="12" fill="url(#painel-card)" stroke="#334155" stroke-width="1.5" filter="url(#sombra-suave)"/>
+  <text x="754" y="534" font-size="16" font-weight="700" fill="#38bdf8">4. AUDITORIA DE CRITÉRIOS NORMATIVOS (NBR 7187 / NBR 6118)</text>
+
+  <!-- Tabela de Verificações com Badges -->
+  <!-- Linha 1: Flexão e Ductilidade -->
+  <g transform="translate(754, 555)">
+    <rect x="0" y="0" width="636" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" font-size="13" font-weight="600" fill="#f8fafc">Ductilidade e Posição Linha Neutra (x/d)</text>
+    <text x="320" y="26" font-size="12" fill="#94a3b8">x/d = 0.126 (Limite: 0.45)</text>
+    <rect x="540" y="10" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="580" y="25" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">CONFORME</text>
+  </g>
+
+  <!-- Linha 2: Biela de Compressão (VRd2) -->
+  <g transform="translate(754, 605)">
+    <rect x="0" y="0" width="636" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" font-size="13" font-weight="600" fill="#f8fafc">Esmagamento da Biela de Concreto (VRd2)</text>
+    <text x="320" y="26" font-size="12" fill="#94a3b8">Vd = 1965.4 kN &lt; VRd2 = 4310.2 kN</text>
+    <rect x="540" y="10" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="580" y="25" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">CONFORME</text>
+  </g>
+
+  <!-- Linha 3: Fadiga da Armadura Longitudinal -->
+  <g transform="translate(754, 655)">
+    <rect x="0" y="0" width="636" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" font-size="13" font-weight="600" fill="#f8fafc">Fadiga da Armadura sob Carga Móvel Cíclica</text>
+    <text x="320" y="26" font-size="12" fill="#94a3b8">Δσs = 56.7 MPa &lt; 180 MPa</text>
+    <rect x="540" y="10" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="580" y="25" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">CONFORME</text>
+  </g>
+
+  <!-- Linha 4: Deformação e Flecha (ELS-DEF) -->
+  <g transform="translate(754, 705)">
+    <rect x="0" y="0" width="636" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" font-size="13" font-weight="600" fill="#f8fafc">Flecha Total com Fluência (ELS-DEF)</text>
+    <text x="320" y="26" font-size="12" fill="#94a3b8">δ_tot = 17.3 mm &lt; L/1000 = 25.0 mm</text>
+    <rect x="540" y="10" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="580" y="25" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">CONFORME</text>
+  </g>
+
+  <!-- Linha 5: Aparelho de Apoio de Neoprene Fretado -->
+  <g transform="translate(754, 755)">
+    <rect x="0" y="0" width="636" height="42" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="26" font-size="13" font-weight="600" fill="#f8fafc">Tensão no Apoio de Neoprene Fretado</text>
+    <text x="320" y="26" font-size="12" fill="#94a3b8">σm = 9.24 MPa &lt; σadm = 10 MPa</text>
+    <rect x="540" y="10" width="80" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="580" y="25" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle">CONFORME</text>
+  </g>
+
+  <!-- Rodapé Técnico -->
+  <text x="754" y="845" font-size="11" fill="#64748b">LOFRANO TECNOLOGIA · Data de Emissão: 10/11/2026 · Software de Engenharia Open Source</text>
+</svg>

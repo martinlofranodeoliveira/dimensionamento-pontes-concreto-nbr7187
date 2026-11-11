@@ -1,0 +1,243 @@
+{
+  "altura_linha_neutra_x": {
+    "denominador": 9350000000000000,
+    "numerador": 1948622684788093,
+    "racional": "1948622684788093/9350000000000000",
+    "valor_decimal": "0.2084"
+  },
+  "apoio_neoprene_atendido": true,
+  "aprovado_geral": true,
+  "area_apoio_adotada": {
+    "denominador": 400,
+    "numerador": 63,
+    "racional": "63/400",
+    "valor_decimal": "0.1575"
+  },
+  "area_apoio_necessaria": {
+    "denominador": 500000000,
+    "numerador": 72793729,
+    "racional": "72793729/500000000",
+    "valor_decimal": "0.1456"
+  },
+  "armadura_estribos_asw_s": {
+    "denominador": 385000000,
+    "numerador": 7545290369,
+    "racional": "7545290369/385000000",
+    "valor_decimal": "19.5982"
+  },
+  "armadura_estribos_minima_asw_s": {
+    "denominador": 10,
+    "numerador": 63,
+    "racional": "63/10",
+    "valor_decimal": "6.3"
+  },
+  "armadura_longitudinal_as": {
+    "denominador": 36620127315211907,
+    "numerador": 6565010594175000000,
+    "racional": "6565010594175000000/36620127315211907",
+    "valor_decimal": "179.2733"
+  },
+  "biela_comprimida_atendida": true,
+  "carga_eixo_veiculo": {
+    "denominador": 1,
+    "numerador": 150,
+    "racional": "150/1",
+    "valor_decimal": "150.0"
+  },
+  "carga_multidao_q": {
+    "denominador": 1,
+    "numerador": 5,
+    "racional": "5/1",
+    "valor_decimal": "5.0"
+  },
+  "carga_passeio": {
+    "denominador": 1,
+    "numerador": 3,
+    "racional": "3/1",
+    "valor_decimal": "3.0"
+  },
+  "cia": {
+    "denominador": 20,
+    "numerador": 23,
+    "racional": "23/20",
+    "valor_decimal": "1.15"
+  },
+  "civ": {
+    "denominador": 375,
+    "numerador": 481,
+    "racional": "481/375",
+    "valor_decimal": "1.2827"
+  },
+  "cmd": {
+    "denominador": 7500,
+    "numerador": 11063,
+    "racional": "11063/7500",
+    "valor_decimal": "1.4751"
+  },
+  "cnf": {
+    "denominador": 1,
+    "numerador": 1,
+    "racional": "1/1",
+    "valor_decimal": "1.0"
+  },
+  "cortante_concreto_vc": {
+    "denominador": 14,
+    "numerador": 9801,
+    "racional": "9801/14",
+    "valor_decimal": "700.0714"
+  },
+  "cortante_movel_total_k": {
+    "denominador": 50000,
+    "numerador": 39638729,
+    "racional": "39638729/50000",
+    "valor_decimal": "792.7746"
+  },
+  "cortante_multidao_k": {
+    "denominador": 2,
+    "numerador": 525,
+    "racional": "525/2",
+    "valor_decimal": "262.5"
+  },
+  "cortante_permanente_k": {
+    "denominador": 10,
+    "numerador": 6631,
+    "racional": "6631/10",
+    "valor_decimal": "663.1"
+  },
+  "cortante_resistencia_biela_vrd2": {
+    "denominador": 80,
+    "numerador": 344817,
+    "racional": "344817/80",
+    "valor_decimal": "4310.2125"
+  },
+  "cortante_total_d": {
+    "denominador": 1000000,
+    "numerador": 1965430683,
+    "racional": "1965430683/1000000",
+    "valor_decimal": "1965.4307"
+  },
+  "cortante_veiculo_k": {
+    "denominador": 20,
+    "numerador": 5499,
+    "racional": "5499/20",
+    "valor_decimal": "274.95"
+  },
+  "ductilidade_atendida": true,
+  "fadiga_atendida": true,
+  "flecha_admissivel": {
+    "denominador": 40,
+    "numerador": 1,
+    "racional": "1/40",
+    "valor_decimal": "0.025"
+  },
+  "flecha_atendida": true,
+  "flecha_imediata": {
+    "denominador": 57616064000,
+    "numerador": 994884527,
+    "racional": "994884527/57616064000",
+    "valor_decimal": "0.0173"
+  },
+  "flecha_total_diferida": {
+    "denominador": 57616064000,
+    "numerador": 994884527,
+    "racional": "994884527/57616064000",
+    "valor_decimal": "0.0173"
+  },
+  "limite_tensao_fadiga": {
+    "denominador": 1,
+    "numerador": 180,
+    "racional": "180/1",
+    "valor_decimal": "180.0"
+  },
+  "limite_x_d": {
+    "denominador": 20,
+    "numerador": 9,
+    "racional": "9/20",
+    "valor_decimal": "0.45"
+  },
+  "momento_movel_total_k": {
+    "denominador": 1000,
+    "numerador": 4900909,
+    "racional": "4900909/1000",
+    "valor_decimal": "4900.909"
+  },
+  "momento_multidao_k": {
+    "denominador": 8,
+    "numerador": 13125,
+    "racional": "13125/8",
+    "valor_decimal": "1640.625"
+  },
+  "momento_permanente_k": {
+    "denominador": 8,
+    "numerador": 33155,
+    "racional": "33155/8",
+    "valor_decimal": "4144.375"
+  },
+  "momento_total_d": {
+    "denominador": 5000,
+    "numerador": 61055667,
+    "racional": "61055667/5000",
+    "valor_decimal": "12211.1334"
+  },
+  "momento_veiculo_k": {
+    "denominador": 8,
+    "numerador": 13455,
+    "racional": "13455/8",
+    "valor_decimal": "1681.875"
+  },
+  "num_eixos": 3,
+  "peso_pavimento": {
+    "denominador": 125,
+    "numerador": 756,
+    "racional": "756/125",
+    "valor_decimal": "6.048"
+  },
+  "peso_permanente_total": {
+    "denominador": 125,
+    "numerador": 6631,
+    "racional": "6631/125",
+    "valor_decimal": "53.048"
+  },
+  "peso_proprio_laje": {
+    "denominador": 1,
+    "numerador": 23,
+    "racional": "23/1",
+    "valor_decimal": "23.0"
+  },
+  "peso_proprio_viga": {
+    "denominador": 1,
+    "numerador": 18,
+    "racional": "18/1",
+    "valor_decimal": "18.0"
+  },
+  "reacao_apoio_maxima_k": {
+    "denominador": 50000,
+    "numerador": 72793729,
+    "racional": "72793729/50000",
+    "valor_decimal": "1455.8746"
+  },
+  "relacao_x_d": {
+    "denominador": 15427500000000000,
+    "numerador": 1948622684788093,
+    "racional": "1948622684788093/15427500000000000",
+    "valor_decimal": "0.1263"
+  },
+  "taxa_armadura_longitudinal": {
+    "denominador": 36620127315211907,
+    "numerador": 88417651100000000,
+    "racional": "88417651100000000/36620127315211907",
+    "valor_decimal": "2.4145"
+  },
+  "tensao_contato_apoio": {
+    "denominador": 7875,
+    "numerador": 72793729,
+    "racional": "72793729/7875",
+    "valor_decimal": "9243.6481"
+  },
+  "variacao_tensao_fadiga": {
+    "denominador": 28258089079275000000,
+    "numerador": 1602899592714140381297,
+    "racional": "1602899592714140381297/28258089079275000000",
+    "valor_decimal": "56.7236"
+  }
+}

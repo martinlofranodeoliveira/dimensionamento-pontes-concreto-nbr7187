@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-pontes-concreto-nbr7187"
+version = "1.0.0"
+description = "Dimensionamento analítico de pontes rodoviárias de concreto armado e protendido conforme ABNT NBR 7187:2021 e ABNT NBR 7188:2013"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Martin Lofrano de Oliveira", email = "martin@lofranotecnologia.com.br" }
+]
+keywords = [
+    "engenharia-estrutural",
+    "pontes-rodoviarias",
+    "concreto-armado",
+    "nbr-7187",
+    "nbr-7188",
+    "nbr-6118",
+    "trem-tipo-tb450",
+    "linhas-de-influencia",
+    "neoprene-fretado",
+    "lofrano-tecnologia"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed"
+]
+
+[project.urls]
+Homepage = "https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187"
+Repository = "https://github.com/martinlofranodeoliveira/dimensionamento-pontes-concreto-nbr7187"
+
+[project.scripts]
+dimensionamento-pontes = "dimensionamento_pontes_concreto_nbr7187.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
